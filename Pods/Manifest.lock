@@ -1,0 +1,24 @@
+PODS:
+  - SideMenu (6.5.0)
+  - SKCountryPicker (2.0.2)
+  - SVPinView (1.0.11)
+
+DEPENDENCIES:
+  - SideMenu
+  - SKCountryPicker
+  - SVPinView (~> 1.0)
+
+SPEC REPOS:
+  trunk:
+    - SideMenu
+    - SKCountryPicker
+    - SVPinView
+
+SPEC CHECKSUMS:
+  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
+  SKCountryPicker: f4882c36fa432d6450099a3e07da60eceda0a8f0
+  SVPinView: 9b538d0ba68cdb092afe4f0f67ec84cbed079466
+
+PODFILE CHECKSUM: f6111ee13234a76edfd8e90166d198cdd765d4ab
+
+COCOAPODS: 1.12.1

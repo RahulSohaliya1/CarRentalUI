@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-CarRentalUI/Pods-CarRentalUI-frameworks.sh
+${BUILT_PRODUCTS_DIR}/SKCountryPicker/SKCountryPicker.framework
+${BUILT_PRODUCTS_DIR}/SVPinView/SVPinView.framework
+${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework

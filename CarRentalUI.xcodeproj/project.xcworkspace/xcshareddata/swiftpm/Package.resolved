@@ -1,0 +1,52 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Cosmos",
+        "repositoryURL": "https://github.com/evgenyneu/Cosmos.git",
+        "state": {
+          "branch": "master",
+          "revision": "cce521e734d0090494bd4afab5fd2e2f2465c1af",
+          "version": null
+        }
+      },
+      {
+        "package": "DropDown",
+        "repositoryURL": "https://github.com/AssistoLab/DropDown.git",
+        "state": {
+          "branch": "master",
+          "revision": "2ab6f6ce19f0117d1a76ea043ef8f57722c65d16",
+          "version": null
+        }
+      },
+      {
+        "package": "FSCalendar",
+        "repositoryURL": "https://github.com/WenchaoD/FSCalendar.git",
+        "state": {
+          "branch": null,
+          "revision": "0fbdec5172fccb90f707472eeaea4ffe095278f6",
+          "version": "2.8.4"
+        }
+      },
+      {
+        "package": "IQKeyboardManagerSwift",
+        "repositoryURL": "https://github.com/hackiftekhar/IQKeyboardManager.git",
+        "state": {
+          "branch": null,
+          "revision": "ea08e08958890043019d248065fe3d825f338087",
+          "version": "6.5.12"
+        }
+      },
+      {
+        "package": "SideMenu",
+        "repositoryURL": "https://github.com/jonkykong/SideMenu.git",
+        "state": {
+          "branch": null,
+          "revision": "8bd4fd128923cf5494fa726839af8afe12908ad9",
+          "version": "6.5.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

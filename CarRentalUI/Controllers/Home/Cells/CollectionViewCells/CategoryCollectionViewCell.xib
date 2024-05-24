@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CategoryCollectionViewCell" id="gTV-IL-0wX" customClass="CategoryCollectionViewCell" customModule="CarRentalUI" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PEJ-us-bQV">
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pencil.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="a64-a7-exF">
+                                <rect key="frame" x="35" y="15.5" width="80" height="79"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="JKv-cU-6iW"/>
+                                    <constraint firstAttribute="height" constant="80" id="UEM-5V-hqO"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="90L-M7-e4n">
+                                <rect key="frame" x="8" y="105" width="134" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="DYp-o2-n5u"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="a64-a7-exF" secondAttribute="trailing" constant="35" id="4vv-Wm-4Ct"/>
+                            <constraint firstItem="a64-a7-exF" firstAttribute="top" secondItem="PEJ-us-bQV" secondAttribute="top" constant="15" id="AjO-5r-a7F"/>
+                            <constraint firstAttribute="bottom" secondItem="90L-M7-e4n" secondAttribute="bottom" constant="20" id="D9r-9c-yXr"/>
+                            <constraint firstAttribute="trailing" secondItem="90L-M7-e4n" secondAttribute="trailing" constant="8" id="I7j-jc-Xtv"/>
+                            <constraint firstItem="90L-M7-e4n" firstAttribute="leading" secondItem="PEJ-us-bQV" secondAttribute="leading" constant="8" id="aA1-8K-czg"/>
+                            <constraint firstItem="a64-a7-exF" firstAttribute="leading" secondItem="PEJ-us-bQV" secondAttribute="leading" constant="35" id="pSz-At-shF"/>
+                            <constraint firstItem="90L-M7-e4n" firstAttribute="top" secondItem="a64-a7-exF" secondAttribute="bottom" constant="10" id="qJq-CE-QlL"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="PEJ-us-bQV" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Q2G-l7-d7n"/>
+                <constraint firstAttribute="bottom" secondItem="PEJ-us-bQV" secondAttribute="bottom" id="bwy-UG-C7W"/>
+                <constraint firstAttribute="trailing" secondItem="PEJ-us-bQV" secondAttribute="trailing" id="etC-fW-cx6"/>
+                <constraint firstItem="PEJ-us-bQV" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="fIc-W6-ptM"/>
+            </constraints>
+            <size key="customSize" width="150" height="135"/>
+            <connections>
+                <outlet property="categoryImgView" destination="a64-a7-exF" id="X0o-Ax-Iv2"/>
+                <outlet property="categoryNameLbl" destination="90L-M7-e4n" id="n2Y-2g-LmC"/>
+                <outlet property="categoryView" destination="PEJ-us-bQV" id="zRR-c7-rX6"/>
+            </connections>
+            <point key="canvasLocation" x="204.34782608695653" y="121.875"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="pencil.circle.fill" catalog="system" width="128" height="121"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
